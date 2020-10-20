@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta name="generator" content="Hexo 3.9.0">
+
+        <title>Export Sketch to HTML — Anima</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png">
+        <meta name="description" content="Design to code, automated.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <meta property="og:type" content="article">
+        <meta property="og:title" content="Export Sketch to HTML — Anima">
+        <meta property="og:description" content="Design to code, automated.">
+        <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Export Sketch to HTML">
+        <meta name="twitter:description" content="Design to code, automated.">
+        <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
+
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js" rel="stylesheet" type="text/css">
+
+        <!-- main page styles -->
+        <link rel="stylesheet" href="/css/page.css">
+
+        <!-- this needs to be loaded before guide's inline scripts -->
+        <script src="/js/vue.js"></script>
+        <script>window.PAGE_TYPE = "export"</script>
+
+        <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
+
+        
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+        <link rel="stylesheet" href="/css/search.css">
+    </head>
+    <body class>        <div id="mobile-bar">
+            <a class="menu-button"></a>
+            <a class="logo" href="/"></a>
+        </div>
+        
+<div id="header">
+  <a id="logo" href="/">
+    <img src="/images/logo.png">
+    <span>Anima Documentation</span>
+  </a>
+  <ul id="nav">
+    <li>
+  <form id="search-form" style="width: 400px;">
+    <input style="width: 100%" type="text" id="search-query-nav" class="search-query st-default-search-input">
+  </form>
+</li>
+
+  </ul>
+</div>
+
+        
+            <div id="main" class="fix-sidebar">
+                
+                    
+    
+<div class="sidebar">
+  <ul class="main-menu">
+    <li>
+  <form id="search-form" style="width: 400px;">
+    <input style="width: 100%" type="text" id="search-query-sidebar" class="search-query st-default-search-input">
+  </form>
+</li>
+
+  </ul>
+  <div class="list" style="margin-top: 15px;">
+    <ul class="menu-root">
+                                                                                                                                                          
+      <h3>
+        Getting Started
+      </h3>
+         
+      <li>
+        <a href="/v3/sketch/getting-started/index.html" class="sidebar-link">Anima for Sketch
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/getting-started/install.html" class="sidebar-link">Install Plugin
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/getting-started/projects.html" class="sidebar-link">Create a Project
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/getting-started/preview.html" class="sidebar-link">Preview & Sync Project
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/getting-started/upgrade.html" class="sidebar-link">Upgrade a Team
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/getting-started/tutorials.html" class="sidebar-link">Tutorial Files
+        </a>
+      </li>
+        
+      <h3>
+        Layout
+      </h3>
+         
+      <li>
+        <a href="/v3/sketch/layout/index.html" class="sidebar-link">Introduction
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/03-pins.html" class="sidebar-link">Pins
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/12-stacks-flexbox.html" class="sidebar-link">Stacks (Flexbox)
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/padding.html" class="sidebar-link">Padding
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/07-presets.html" class="sidebar-link">Screen Presets
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/11-keyboard.html" class="sidebar-link">Keyboard Shortcuts
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/08-symbols.html" class="sidebar-link">Symbols
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/layout/13-examples.html" class="sidebar-link">Examples
+        </a>
+      </li>
+        
+      <h3>
+        Prototype
+      </h3>
+         
+      <li>
+        <a href="/v3/sketch/prototype/index.html" class="sidebar-link">Introduction
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/install.html" class="sidebar-link">Install Plugin
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/links.html" class="sidebar-link">Links
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/breakpoints.html" class="sidebar-link">Breakpoints
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/home.html" class="sidebar-link">Set Homepage
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/hover.html" class="sidebar-link">Hover Effects
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/entrance-animation.html" class="sidebar-link">Entrance Animation
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/fixed-position.html" class="sidebar-link">Fixed Position
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/forms.html" class="sidebar-link">Text Input & Forms
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/videos.html" class="sidebar-link">Videos/GIFs/Lottie
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/embed-code.html" class="sidebar-link">Embed Code
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/interaction-animation-intro.html" class="sidebar-link">Interaction & Animation
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/interactions.html" class="sidebar-link">Interactions Intro
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/prototype/samples.html" class="sidebar-link">Samples
+        </a>
+      </li>
+        
+      <h3>
+        Export
+      </h3>
+         
+      <li>
+        <a href="/v3/sketch/export/index.html" class="sidebar-link">Export
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/work-in-teams.html" class="sidebar-link">Collaborate In Teams
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/export-html.html" class="sidebar-link current">Export Sketch to HTML
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/05-publish-and-manage-website.html" class="sidebar-link">Publish Your Website
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/manage-website.html" class="sidebar-link">Manage Website
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/08-custom-domain.html" class="sidebar-link">Custom Domains
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/07-analytics.html" class="sidebar-link">Analytics
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/manage-access.html" class="sidebar-link">Manage Access Levels
+        </a>
+      </li>
+          
+      <li>
+        <a href="/v3/sketch/export/specs.html" class="sidebar-link">Specs
+        </a>
+      </li>
+          
+    </ul>
+  </div>
+  <div style="font-size: 12px; margin-top: 10px;">
+    <p>Built with ❤️ &nbsp in NYC & TLV</p>
+  </div>
+</div>
+
+
+<div class="content export with-sidebar ">
+    
+      <h1>Export Sketch to HTML</h1>
+    
+    <h2 id="Guide-Overview"><a href="#Guide-Overview" class="headerlink" title="Guide Overview"></a>Guide Overview</h2><p>In this guide we will go over:</p>
+<ol>
+<li>How <strong>Anima</strong> converts Sketch documents into code</li>
+<li>How to export your Sketch document to an <strong>HTML Code Pack</strong></li>
+<li>What the <strong>HTML Code Package</strong> looks like</li>
+<li>Frequently Asked Questions</li>
+</ol>
+<h2 id="How-Does-Export-Code-Work"><a href="#How-Does-Export-Code-Work" class="headerlink" title="How Does Export Code Work"></a>How Does Export Code Work</h2><p><strong>Anima</strong> enables designers to export full websites <strong>HTML</strong> &amp; <strong>CSS,</strong> directly from a Sketch design.</p>
+<p>Our process of transforming a Sketch design into a website involves many steps.</p>
+<p>Basically, we’re converting Sketch artboards and layers into a bundle of files that includes HTML, CSS, images, and font files, ready to deploy.</p>
+<p><img src="https://downloads.intercomcdn.com/i/o/95946167/4284ff0a2edd319508bc9c1c/1%2Aq2qJ8DNisucOCcADibJJ1g.png" alt></p>
+<h2 id="Host-It-with-Us-or-Export-It"><a href="#Host-It-with-Us-or-Export-It" class="headerlink" title="Host It with Us or Export It"></a>Host It with Us or Export It</h2><p>Once the bundle is generated we’re doing numerous optimizations to improve the speed of the site loading time.</p>
+<p><strong>Stuff like:</strong></p>
+<ul>
+<li>Zipping text-based files</li>
+<li>Optimizing PNG image files</li>
+<li>Using Cache-Control headers for browser caching in our hosting servers</li>
+<li>And more!</li>
+</ul>
+<p>Nevertheless, sometimes our customers are interested in exporting the package of files to host on their service or add some custom logic to it.</p>
+<h4 id="We-Believe-the-Design-Is-Yours"><a href="#We-Believe-the-Design-Is-Yours" class="headerlink" title="We Believe the Design Is Yours"></a>We Believe the Design Is Yours</h4><p>And while we encourage you to host it on our fast servers, whenever you want to export it — Well, that is your right.</p>
+<p>To learn more, take a look at our guide on <a href="https://docs.animaapp.com/v3/export/05-publish-and-manage-website.html">How to Publish a Website and Host it With Anima</a>  </p>
+<h2 id="How-To-Export-Code"><a href="#How-To-Export-Code" class="headerlink" title="How To Export Code"></a>How To Export Code</h2><p>Well, it’s pretty straightforward, just click <strong>Export</strong> in the Export tab.</p>
+<p><img src="http://f.cl.ly/items/3B1q3Z3L1b1o3U053O1Y/Export%20Code2x.png" alt="Export to Code"></p>
+<p>For our example we are using a sample Portfolio website: <a href="http://doe.myportfolio.design/" target="_blank" rel="noopener">doe.myportfolio.design</a></p>
+<h2 id="The-Code-Package"><a href="#The-Code-Package" class="headerlink" title="The Code Package"></a>The Code Package</h2><p>The Code Package is a zip file that contains HTML files, CSS files, images and fonts.</p>
+<p>Sample Code Package — <a href="https://cl.ly/33392Z3f3g3D" target="_blank" rel="noopener">Download</a></p>
+<p><img src="http://f.cl.ly/items/1b0t3P1a0C3y3m0n3M0w/Code%20Package%20Files.png" alt="Code Package Files"></p>
+<p>Opening the HTML files locally present the website perfectly in your browser.</p>
+<p><img src="https://downloads.intercomcdn.com/i/o/95946171/ac800bee0f0f17046bb6e40e/1%2AYDIyhtQnkGiqtkBQQCYjpA.png" alt="HTML Files locally"></p>
+<p>If you open the files in a text editor you’ll see a well structured HTML and CSS.</p>
+<p><img src="https://downloads.intercomcdn.com/i/o/95946174/5f1c4df3908408ac2d1196a1/1%2AgqcF2yZX74Rtk5pkn1YTbw.png" alt="CSS Structure"></p>
+<p><img src="https://downloads.intercomcdn.com/i/o/95946175/a309cb5874ab6d7a51cb08dd/1%2A8ww5nOrz-WFWquqwgQW2xQ.png" alt="CSS Structure"></p>
+<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><p>In order to keep your website <strong>pixel-perfect</strong>, easily made <strong>responsive</strong>, load <strong>crazy fast</strong>, yet <strong>clean</strong> &amp; <strong>readable </strong>— We made some choices for you about the code style. Here are some questions we get about code packs.</p>
+<h4 id="Why-Absolute-Positioning"><a href="#Why-Absolute-Positioning" class="headerlink" title=" Why Absolute Positioning?"></a><strong> Why Absolute Positioning?</strong></h4><p>Developers tend to use CSS <em>relative</em> position, while Launchpad composes CSS with <em>absolute</em> position by default. The upside here is getting high fidelity, bringing your design as close as possible to <strong>pixel-perfect</strong> in browser. You’re not likely to see a line break where you didn’t expect it (<em>relative</em> position downside).</p>
+<h4 id="How-to-work-with-Dynamic-Content"><a href="#How-to-work-with-Dynamic-Content" class="headerlink" title=" How to work with Dynamic Content?"></a><strong> How to work with Dynamic Content?</strong></h4><p>Usually, most of your content is static, rather than dynamic — i.e logos, titles, menu buttons, backgrounds, etc.</p>
+<p>However, if you give your exported code to a developer, and need layers to move <strong>relatively to one another</strong>, simply use the <a href="https://medium.com/sketch-app-sources/auto-layout-introducing-stacks-flexbox-for-sketch-c8a11422c7b5" target="_blank" rel="noopener"><strong>Stacks</strong></a> feature. When you use Stacks, layers expand and push each other. The composed CSS uses <strong>Flex-boxes</strong> rather than <em>absolute</em> position.</p>
+<p>Stacks also support symbol overrides for text, and hiding layers to realign.  </p>
+<p>Yup, you can see it working inside Sketch. Cool </p>
+<p><img src="https://downloads.intercomcdn.com/i/o/95946176/59f5c6cb3ba82101e4710d37/1%2AFV4NQwj_tHaGYvO_GY3tLA.gif" alt="Dynamic Content"></p>
+<h4 id="How-do-Breakpoints-work"><a href="#How-do-Breakpoints-work" class="headerlink" title=" How do Breakpoints work?"></a><strong> How do Breakpoints work?</strong></h4><p><a href="https://docs.animaapp.com/v3/sketch/prototype/breakpoints.html">Breakpoints</a> allows you to create an artboard for each screen width — for example <strong>Mobile</strong>, <strong>Tablet</strong> and <strong>Desktop</strong>. When generating code, Anima makes a single HTML file and a corresponding single CSS file from these artboards.</p>
+<p><strong>Breakpoints</strong> are efficient since it uses native CSS media queries. It allows the browser to skip rendering everything that isn’t relevant for the current screen size.</p>
+<p>Another bonus, is that images are loaded only for user’s screen size, being sharp and not over sized. And, we’re loading it top to bottom for making it even more slick.</p>
+<p><img src="http://f.cl.ly/items/3M3k100c3E3q0x0B1t00/Breakpoints%20code2x.png" alt="Breakpoints Code"></p>
+<h4 id="Why-did-my-Forms-break"><a href="#Why-did-my-Forms-break" class="headerlink" title="Why did my Forms break?"></a>Why did my Forms break?</h4><p>When you’re hosting your website with us, we also give you a tiny backend server to support your forms. It allows users to send to that server, and we store it for you.</p>
+<p>This server-side code cannot be simply exported and included in the code package, as it needs to run on a server rather than on the browser (which is called client-side code).</p>
+<p>Therefore, when exporting code with forms, you’ll have to implement your own server to capture form submissions, and store your data.</p>
+
+    
+    <div class="footer">
+      Caught a mistake or want to contribute to the documentation?
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v3/sketch/export/export-html.md" target="_blank">
+        Edit this page on Github!
+      </a>
+    </div>
+</div>
+
+                
+            </div>
+            <script src="/js/smooth-scroll.min.js"></script>
+        
+
+        <!-- main custom script for sidebars, version selects etc. -->
+        <script src="/js/css.escape.js"></script>
+        <script src="/js/common.js"></script>
+
+        <!-- search -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+        <script type="text/javascript"> 
+            [
+          '#search-query-nav',
+          '#search-query-sidebar'
+            ].forEach(function (selector) {
+                docsearch({
+                    apiKey: 'a0310ab013b58805afb3d17bc12cd527',
+                    indexName: 'animaapp',
+                    inputSelector: selector,
+                    debug: false 
+                 });
+            });
+        </script>
+       
+
+        <!-- fastclick -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          FastClick.attach(document.body)
+        }, false)
+        </script>
+
+        <!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11236684;
+var sc_invisible=1;
+var sc_security="721a38d5";
+var sc_https=1;
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web counter" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11236684/0/721a38d5/1/" alt="web
+counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+ <script>
+  window.intercomSettings = {
+    app_id: "id43h9l8"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/id43h9l8';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+ 
+    </body>
+
+
+</html>
